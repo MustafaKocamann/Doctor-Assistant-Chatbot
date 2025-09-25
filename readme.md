@@ -36,7 +36,7 @@ Kullanıcının adı, yaşı ve mesaj geçmişine göre uygun yanıtlar üretir.
 .\venv\Scripts\Activate
 
 ### 3️⃣ Gerekli Kütüphaneleri Yükleme
-* pip install fastapi uvicorn openai python-dotenv
+* pip install requirements.txt
 
 ### 4️⃣ Ortam Değişkeni (.env) Dosyası
 * Kök dizinde .env dosyası oluşturup içine kendi OpenAI API anahtarını yaz:
@@ -52,5 +52,6 @@ Kullanıcının adı, yaşı ve mesaj geçmişine göre uygun yanıtlar üretir.
 * Uvicorn → FastAPI için ASGI server.
 * OpenAI → GPT-3.5 API entegrasyonu.
 * python-dotenv → Ortam değişkenleri yönetimi.
+
 
 
