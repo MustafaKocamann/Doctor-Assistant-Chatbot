@@ -1,0 +1,29 @@
+# Python cache dosyaları
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Sanal ortam
+venv/
+env/
+.venv/
+.env/
+
+# IDE ve editör dosyaları
+.vscode/
+.idea/
+
+# Log ve temp dosyaları
+*.log
+*.tmp
+*.bak
+
+# MacOS / Windows
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Pip ve paketler
+*.egg-info/
+dist/
+build/
